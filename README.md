@@ -233,9 +233,4 @@ test:     python -m pytest -q
 * **Threshold τ**: Score cutoff that turns probabilities into class labels; tuned on validation.
 * **Batch scoring**: Offline prediction on files (CSV in, CSV out).
 
----
 
-## Credits / References
-
-* Dataset: Kaggle “Telco Customer Churn”.
-* Design heuristics inspired by common MLOps best practices and **Chip Huyen — Designing Machine Learning Systems** (**Huyen-Referenz nicht verifiziert** in this README due to offline access).
